@@ -1,0 +1,42 @@
+/* body e html ocupam 100% da tela */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0b0c10;
+    color: #c5c6c7;
+}
+
+/* container centralizado vertical e horizontalmente */
+body {
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+    text-align: center;
+    flex-direction: column;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #1f2833;
+    color: #66fcf1;
+    border: none;
+    cursor: pointer;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a29e;
+}
+
+img {
+    max-width: 80%;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+#resultado h2 {
+    color: #66fcf1;
+}
